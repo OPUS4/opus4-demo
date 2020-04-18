@@ -1,0 +1,15 @@
+# Test files
+build
+
+#  Third-party dependencies installed using Composer
+vendor
+
+# Composer files
+composer.phar
+composer.lock
+
+# IDE files
+.idea
+.out
+*.iml
+nbproject
