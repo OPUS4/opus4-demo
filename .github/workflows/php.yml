@@ -10,6 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install xmllint
+        run: sudo apt-get install libxml2-utils
+
       - name: Change to PHP7.0
         run: sudo update-alternatives --set php /usr/bin/php7.0
 
