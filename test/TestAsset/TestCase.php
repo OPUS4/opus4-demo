@@ -64,4 +64,9 @@ class TestCase extends \PHPUnit_Framework_TestCase
             }
         }
     }
+
+    protected function isFailTestOnMissingCommand()
+    {
+        return false;
+    }
 }
